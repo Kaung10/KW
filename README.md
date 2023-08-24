@@ -1,5 +1,5 @@
 # KW
-git status       &emsp     -       to show status  <br />
+git status           -       to show status  <br />
 git add file-name        -       to upload one file locally  <br />
 git add .             -        to upload all locally  <br />
 git commit -m "commit message" - to commit  <br />
