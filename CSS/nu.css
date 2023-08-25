@@ -70,11 +70,11 @@ body{
 }
 .link{
     width: 300px;
-    height: 80px;
+    height: 100px;
     cursor: pointer;
     color: rgb(159, 50, 110);
     font-size: 17px;
-    border-radius: 1rem;
+    border-radius: 50px;
     border: none;
     position: relative;
     background:rgb(234, 217, 184);
