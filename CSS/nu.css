@@ -105,17 +105,16 @@ body{
     height: 100%
 }
 
-/* @media screen  and (max-width : 2560px){
+@media screen  and (max-width : 2560px){
      h1{
         font-size:32px ;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
         text-align: left;
-        align-items: flex-start;
       
     } 
     content{
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         gap:250 px;
         display: flex;
@@ -136,13 +135,16 @@ body{
     }
 
     .content img{
-        width: 60%;
-        height: 100%;
+        width: 180px;
+        height: 180px;
         margin-top: 50px;
+        display: block;
+        position: absolute;
+        margin-top: 30%;
         
     }
 
-} */
+} 
 
 /* .blck{
   display: block;
