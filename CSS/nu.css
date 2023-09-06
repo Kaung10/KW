@@ -105,7 +105,7 @@ body{
     height: 100%
 }
 
-@media screen  and (max-width : 2560px){
+/*@media screen  and (max-width : 2560px){
      h1{
         font-size:32px ;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -144,9 +144,9 @@ body{
         
     }
 
-} 
-
-/* .blck{
+} */
+/*
+.blck{
   display: block;
   font-size: 10px;   
   font-weight: bold;
