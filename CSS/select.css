@@ -33,6 +33,7 @@ body::before{
   justify-content: space-evenly;
   width: 300%;
   transition: 1s;
+
    
 }
 #two:checked ~ .main-card{
@@ -48,6 +49,8 @@ body::before{
   flex-wrap: wrap;
   margin: 0px 20px;
   justify-content: space-around;
+  padding-left:30px ;
+  padding-right: 30px;
 }
 .main-card .cards .card{
   width: calc(100% / 3 - 10px);
@@ -92,7 +95,8 @@ body::before{
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 20px;
+   margin-top: 20px;
+   transform: translateX(-5%);
 }
 .button label{
   height: 15px;
@@ -102,6 +106,8 @@ body::before{
   margin: 0 4px;
   cursor: pointer;
   transition: all 0.5s ease;
+  margin-right: 13px;
+  padding: 12px;
 }
 .button label.active{
   width: 35px;
