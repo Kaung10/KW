@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  display: flex;
+  display: block;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -16,23 +16,24 @@ body::before{
   content: '';
   position: absolute;
   width: 100%;
-  background: #FF676D;
   clip-path: inset(47% 0 0 0);
   z-index: -1;
   height: 100%;
 }
 
 .container{
-  max-width: 1000px;
-  width: 80%;
+  /* max-width: 1000px; */
+  width: 100%;
   overflow: hidden;
   padding: 80px 0%;
+  background: #FF676D;
 }
 .container .main-card{
   display: flex;
   justify-content: space-evenly;
   width: 300%;
   transition: 1s;
+   
 }
 #two:checked ~ .main-card{
   margin-left: -100%;
