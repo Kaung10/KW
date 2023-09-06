@@ -16,8 +16,7 @@ body {
     background: cornflowerblue;
     background: url("../img/bg.jpg");
     background-position: center;
-    background-size: cover;
-    repeat: no repeat; 
+    background-size: cover; 
     
 }
 
