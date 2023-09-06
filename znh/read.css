@@ -90,8 +90,9 @@ body{
 .container1 .img{
     height: auto;
     display: block;
-    transition: 0.2s ease;
+    transition: 0.7s ease;
     align-items: center;
+    margin-left: 320px;
     
 }
 .container1:hover img{
@@ -106,7 +107,9 @@ body{
     margin-right:auto;
     padding: 10px 20px;
     flex-direction: column;
-    display: flex;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 25px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -121,7 +124,8 @@ body{
     transform: translateX(-12%);
 }
 .container1 .border{
-    text-align: center;
+    text-align: left;
+    justify-content: left;
     width: auto;    
 }
 .button{
@@ -144,13 +148,13 @@ body{
     font-family: sans-serif;
     overflow:hidden;
     box-shadow: 5px 10px 20px rgba(20, 19, 19, 0.5) ;
-    transition: all 0.3s ease-out;
-    align-items: center;
+    transition: all 1s ease-in-out;
+    align-items: left;
     
 }
 
 .icon:hover{
-    width: 400px;
+    width: 250px;
     cursor: pointer;
     display: flex;
     align-items: center;
