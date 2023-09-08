@@ -22,8 +22,8 @@ body{
     background: white; 
 }
 
-.navbar a{ 
-     float : left;
+.navbar a{
+    float : left;
     font-size: 16px;
     color: black;
     text-align: center;
