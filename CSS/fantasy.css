@@ -54,7 +54,7 @@ img:hover{
 
 .book{
     width: 280px;
-    padding: 2rem;
+    padding: 3rem;
     height: 400px;
     display: flex;
     flex-direction: column;
